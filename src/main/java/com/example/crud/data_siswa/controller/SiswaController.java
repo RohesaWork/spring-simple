@@ -1,4 +1,4 @@
-package com.sekolah.data_siswa.controller;
+package com.example.crud.data_siswa.controller;
 
 import java.util.List;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.sekolah.data_siswa.entity.Siswa;
-import com.sekolah.data_siswa.service.SiswaService;
+
+import com.example.crud.data_siswa.entity.Siswa;
+import com.example.crud.data_siswa.service.SiswaService;
 
 @RestController
 @RequestMapping("/api/siswa")

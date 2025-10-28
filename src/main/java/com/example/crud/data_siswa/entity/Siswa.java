@@ -1,4 +1,4 @@
-package com.sekolah.data_siswa.entity;
+package com.example.crud.data_siswa.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,7 +1,8 @@
-package com.sekolah.data_siswa.service;
+package com.example.crud.data_siswa.service;
 
 import java.util.List;
-import com.sekolah.data_siswa.entity.Siswa;
+
+import com.example.crud.data_siswa.entity.Siswa;
 
 public interface SiswaService {
     Siswa createSiswa(Siswa siswa);
