@@ -1,0 +1,12 @@
+# Konfigurasi Port Server (opsional, defaultnya 8080)
+server.port=<port aplikasi>
+
+# Konfigurasi Koneksi Database PostgreSQL
+spring.datasource.url=jdbc:postgresql://localhost:<port>/<nama db>
+spring.datasource.username=<username db>
+spring.datasource.password=<password db>
+
+# Konfigurasi JPA dan Hibernate
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
