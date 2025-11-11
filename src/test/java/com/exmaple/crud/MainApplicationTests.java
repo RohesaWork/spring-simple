@@ -1,10 +1,10 @@
-package com.sekolah.data_siswa;
+package com.exmaple.crud;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DataSiswaApplicationTests {
+class MainApplicationTests {
 
 	@Test
 	void contextLoads() {
